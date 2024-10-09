@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --foreground-rgb: 0, 0, 0; /* Black text */
+  --background-start-rgb: 214, 219, 220; /* Light gray background */
+  --background-end-rgb: 255, 255, 255; /* White background */
 }
 
 body {
@@ -26,6 +18,27 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Scrollbar Styling for md screens and above */
+@media (min-width: 768px) { /* This targets medium and larger screens */
+  ::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(186, 186, 186); /* Gray color for the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(226, 226, 226); /* Darker gray when hovered */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgba(240, 240, 240, 0); /* Change this to the desired track color */
+  }
+}
+
+/* Custom Utility Class */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
