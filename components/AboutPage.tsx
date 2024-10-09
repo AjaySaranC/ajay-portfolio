@@ -23,17 +23,12 @@ export const AboutPage: React.FC = () => {
             About <span className="text-orange-400"> Me</span>
           </h1>
           <p
-            className=" text-center text-lg lg:pr-9 lg:text-left lg:leading-relaxed"
-            style={{ fontWeight: 300 }}
-          >
-            I'm Ajay Saran, a Computer Science Engineer with a strong passion
-            for both web and graphic design. With expertise in vector art,
-            poster design, video editing, and web development, I bring
-            creativity and technical skills to every project. I'm currently
-            seeking job opportunities and freelance work where I can apply my
-            talents in graphic design, web design, and digital art. Let's
-            collaborate to create something impactful!
-          </p>
+  className="text-center text-lg lg:pr-9 lg:text-left lg:leading-relaxed"
+  style={{ fontWeight: 300 }}
+>
+  I&apos;m Ajay Saran, a Computer Science Engineer with a strong passion for web and graphic design. With expertise in vector art, poster design, video editing, and web development, I bring creativity and technical skills to every project. Currently, I am seeking job opportunities and freelance work where I can apply my talents in graphic design, web design, and digital art. Let&apos;s collaborate to create something impactful!
+</p>
+
         </div>
       </div>
 

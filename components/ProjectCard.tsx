@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { EyeIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image'; // Import Image from next/image
 
 interface ProjectCardProps {
   imgUrl: string;
@@ -23,10 +24,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, desc, githubUr
       transition={{ duration: 0.5, ease: 'easeInOut' }}
     >
       <div className="relative">
-        <img
-          src={imgUrl}
+        <Image
+          src={imgUrl} // Use the src prop for the Image component
           alt={title}
           className="h-[18rem] w-full object-cover rounded-t-lg transition-opacity duration-300 group-hover:opacity-50"
+          width={300} // Set a width for the image
+          height={200} // Set a height for the image
         />
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black bg-opacity-25">
           <div
@@ -81,7 +84,6 @@ const ProjectGrid: React.FC = () => {
     { imgUrl: '/images/portfolio.png', title: 'Portfolio Website', desc: 'A personal portfolio website built using Next.js and TypeScript, showcasing various projects and professional experience.', githubUrl: '' },
     { imgUrl: '/images/delivery.jpg', title: 'Food Delivery Backend', desc: 'A robust backend system developed with MySQL, supporting user authentication, restaurant search, food ordering, and delivery management.', githubUrl: 'https://github.com/AjaySaranC/Intern-Training-/tree/main/FoodDelivery%20Backend%20Project' },
   ];
-  
 
   return (
     <div className="max-w-[90rem] mx-auto p-4 m-9" ref={gridRef}>

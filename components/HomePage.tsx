@@ -27,7 +27,7 @@ const HomePage = () => {
             <span className="block text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-custom-gwhite to-white">
               Hello{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-custom-pink to-custom-yellow">
-                I'm
+                I&apos;m
               </span>
               , <br />
             </span>
@@ -52,7 +52,7 @@ const HomePage = () => {
             </div>
             <div>
               <p className="text-[#dfdede] text-base sm:text-lg sm:mt-3 mb-6 lg:text-xl lg:mt-4">
-                I'm a Computer Science Engineer with a passion for technology
+                I&apos;m a Computer Science Engineer with a passion for technology
                 and innovation.
               </p>
             </div>
