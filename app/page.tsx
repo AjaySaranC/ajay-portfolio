@@ -5,8 +5,6 @@ import HomePage from "../components/HomePage";
 import ProjectCard from "../components/ProjectCard";
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
 import { AboutPage } from "../components/AboutPage";
-import { MacbookScroll } from "@/components/ui/macbook-scroll";
-import Link from "next/link";
 import { SignupFormDemo } from '@/components/SignupFormDemo';
 import  Footer  from '@/components/Footer';
 
