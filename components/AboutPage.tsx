@@ -10,7 +10,7 @@ export const AboutPage: React.FC = () => {
         {/* Left side with image */}
         <div className="w-full lg:w-1/2 p-4 flex justify-center">
           <Image
-            src="/images/about.png" // Update with the correct image path
+            src="/images/about.jpg" // Update with the correct image path
             alt="Your Image"
             width={500} // Set the appropriate width
             height={500} // Set the appropriate height

@@ -81,7 +81,7 @@ const ProjectGrid: React.FC = () => {
     { imgUrl: '/images/heart.jpg', title: 'Heart Disease Diagnosis', desc: 'An AI-driven model to assess the risk of heart disease based on user-provided health parameters, improving diagnostic accuracy.', githubUrl: 'https://github.com/AjaySaranC/Heart-diagnose-system' },
     { imgUrl: '/images/mental.jpg', title: 'Mental Health Chatbot', desc: 'A chatbot application designed to engage users in conversations about mental health, offering relevant advice and solutions.', githubUrl: 'https://github.com/AjaySaranC/MentalIllness-chatbot' },
     { imgUrl: '/images/calorie.jpg', title: 'Calorie Tracker Using Image Recognition', desc: 'A calorie-tracking solution that uses image recognition to analyze meal photos and estimate food items along with their calorie counts.', githubUrl: 'https://github.com/AjaySaranC/Calorie-tracker' },
-    { imgUrl: '/images/portfolio.png', title: 'Portfolio Website', desc: 'A personal portfolio website built using Next.js and TypeScript, showcasing various projects and professional experience.', githubUrl: '' },
+    { imgUrl: '/images/portfolio.jpg', title: 'Portfolio Website', desc: 'A personal portfolio website built using Next.js and TypeScript, showcasing various projects and professional experience.', githubUrl: '' },
     { imgUrl: '/images/delivery.jpg', title: 'Food Delivery Backend', desc: 'A robust backend system developed with MySQL, supporting user authentication, restaurant search, food ordering, and delivery management.', githubUrl: 'https://github.com/AjaySaranC/Intern-Training-/tree/main/FoodDelivery%20Backend%20Project' },
   ];
 
